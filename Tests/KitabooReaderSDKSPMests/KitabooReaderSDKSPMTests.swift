@@ -1,11 +1,11 @@
 import XCTest
-@testable import HardikSPM
+@testable import KitabooReaderSDKSPM
 
-final class HardikSPMTests: XCTestCase {
+final class KitabooReaderSDKSPMTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(HardikSPM().text, "Hello, World!")
+        XCTAssertEqual(KitabooReaderSDKSPM().text, "Hello, World!")
     }
 }
